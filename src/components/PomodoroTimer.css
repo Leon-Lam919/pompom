@@ -1,0 +1,214 @@
+/* Light Theme */
+body.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #1d1f27;
+  color: #f9f9f9;
+}
+
+.pomodoro-container {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.timer-section {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.topic-input {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+}
+
+.timer {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  transition: color 0.5s ease;
+}
+
+.timer.break {
+  color: #f39c12;
+}
+
+.progress-bar-container {
+  background-color: #f0f0f0;
+  height: 15px;
+  width: 100%;
+  max-width: 100%;
+  margin: 15px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 100%;
+  transition: width 0.5s ease;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 10px; /* Adds spacing between buttons */
+  flex-wrap: wrap; /* Allow wrapping in case of narrow screens */
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  max-width: 100px; /* Ensure buttons are of equal size */
+}
+
+.btn-start {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-pause {
+  background-color: #f39c12;
+  color: white;
+}
+
+.btn-stop {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-reset {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.volume-control {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.volume-control label {
+  font-size: 1em;
+}
+
+.volume-control input {
+  width: 70%;
+}
+
+/* Enhanced Theme Toggle */
+.theme-toggle {
+  margin-top: 30px;
+}
+
+.btn-theme {
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #4caf50;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-theme:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-icon {
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.hidden-player {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.music-control {
+  margin-top: 20px;
+}
+
+.btn-music {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-music:hover {
+  background-color: #45a049;
+}
+
+.task-time-tracker {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+  max-width: 300px;
+}
+
+.task-time-tracker h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.task-time-tracker ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-time-tracker li {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
