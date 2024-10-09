@@ -134,9 +134,6 @@ const PomodoroTimer = () => {
           </button>
         </div>
 
-        {/* Hidden YouTube Player */}
-        <div id="youtube-player" className="hidden-player"></div>
-
         {/* Task Time Tracker */}
         <div className="task-time-tracker">
           <h3>Time Spent on Tasks</h3>

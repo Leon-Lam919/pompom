@@ -29,6 +29,10 @@ body.dark {
   margin-bottom: 20px;
 }
 
+.custom-time-input{
+  margin-bottom: 10px;
+}
+
 .timer-section {
   margin-bottom: 30px;
   width: 100%;
@@ -84,6 +88,7 @@ body.dark {
 }
 
 .btn {
+  display: center;
   padding: 10px 20px;
   font-size: 1.2em;
   border: none;
@@ -150,7 +155,7 @@ body.dark {
   color: white;
   width: 60px;
   height: 60px;
-  display: flex;
+  display: center;
   justify-content: center;
   align-items: center;
   transition: background-color 0.3s ease;
